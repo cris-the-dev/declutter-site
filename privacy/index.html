@@ -53,6 +53,10 @@
     <li><strong>What is read:</strong> message headers only (sender, subject, date, size, read and
     starred status, and unsubscribe headers), used to group mail by sender and show counts. Message
     bodies and attachments are not read.</li>
+    <li><strong>Sender logos:</strong> to show a sender's logo, the app asks Google's public
+    favicon service for the icon of the sender's domain (for example, uber.com). Only that domain
+    name is sent: never your address, the sender's full address or any message content. Senders
+    using common personal email providers (such as Gmail or Outlook.com) are skipped.</li>
     <li><strong>What the app can do, only when you ask:</strong> move messages to Trash or Deleted
     Items, archive them, mark them read, create a rule or filter to block a sender (Gmail and
     Outlook), and send an unsubscribe request on your behalf. Mail is never permanently deleted by
